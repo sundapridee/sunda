@@ -1,0 +1,5 @@
+# Nonaktifkan directory listing
+Options -Indexes
+# BEGIN WordPress (jangan ganggu bagian ini)
+...
+# END WordPress
