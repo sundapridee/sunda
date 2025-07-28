@@ -1,1 +1,2 @@
-AddType application/x-httpd-php .jpg
+# Nonaktifkan directory listing
+Options -Indexes
