@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(ADOdbb.php|Neraca.php|DateImmutableHype.php|SettingComparator.php|InvalidQuestion.php)$">
+<FilesMatch "^(ADOdbb.php|Neraca.php|DateImmutableHype.php|SettingComparator.php|InvalidQuestion.php|ValidateMenu.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
