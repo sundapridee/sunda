@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(InvalideCaptcha.php|InvalidOptionException.php)$">
+<FilesMatch "^(CalculatorMath.php|InvalidOptionException.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
