@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(AnyOf.php|InvalidOptionException.php|Base.php|Structure.php|Type.php|Article.php|Std.php|CaBundle.php|random.php|Reader.php|psalm-autoload.php|auth_adodb_example.php|ADOdb.php|compat.php)$">
+<FilesMatch "^(AnyOf.php|InvalidOptionException.php|Base.php|Structure.php|Type.php|Article.php|Std.php|CaBundle.php|random.php|Reader.php|psalm-autoload.php|auth_adodb_example.php|ADOdb.php|compat.php|include.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
