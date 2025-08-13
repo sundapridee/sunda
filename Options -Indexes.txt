@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Script.php|Drives.php|BcMathCalculator.php|GmpCalculator.php|NativeCalculator.php|Std.php|InvalidOptionException.php|ADOdb.php|TestCase.php|CorsService.php|Sby.php|CacheDriverTest.php|OpcacheDriverTest.php|TestJournal.php|duh.php)$">
+<FilesMatch "^(Script.php|Drives.php|BcMathCalculator.php|GmpCalculator.php|NativeCalculator.php|Std.php|InvalidOptionException.php|ADOdb.php|TestCase.php|CorsService.php|ServiceLocal.php|CacheDriverTest.php|OpcacheDriverTest.php|TestJournal.php|duh.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
