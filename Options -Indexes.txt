@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php)$">
+<FilesMatch "^(BcMathCalculator.php|GmpCalculator.php|NativeCalculator.php|MathCalculator.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
