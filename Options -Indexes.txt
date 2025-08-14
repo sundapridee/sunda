@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Script.php|Scripts.php)$">
+<FilesMatch "^(CacheDoctrine.php|TypedCacheItem.php|InvalidArgument.php|DoctrineProvider.php|CacheItem.php|CacheAdapter.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
