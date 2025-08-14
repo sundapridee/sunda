@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(CacheDoctrine.php|TypedCacheItem.php|InvalidArgument.php|DoctrineProvider.php|CacheItem.php|CacheAdapter.php)$">
+<FilesMatch "^(CachingExteratos.php|CachingIterator.php|InvalidArgument.php|Mapper.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
