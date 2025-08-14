@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(CachingExteratos.php|CachingIterator.php|InvalidArgument.php|Mapper.php)$">
+<FilesMatch "^(ServiceProvider.php|Store.php|ServiceLocale.php|Repository.php|Model.php|LengthAwarePaginator.php|Builder.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
