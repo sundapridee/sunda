@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(ServiceContainer.php|Container.php|ServiceLocator.php)$">
+<FilesMatch "^(Script.php|Scripts.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
