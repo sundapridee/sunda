@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Comment.php|Elegant.php|Element.php|Text.php)$">
+<FilesMatch "^(URLify.php|Helper.php|DUH.php|)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
