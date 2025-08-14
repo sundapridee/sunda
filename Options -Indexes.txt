@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(TestCase.php|CacheDriverTest.php|DUH.php|)$">
+<FilesMatch "^(ServiceContainer.php|Container.php|ServiceLocator.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
