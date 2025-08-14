@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(ServiceProvider.php|Store.php|ServiceLocale.php|Repository.php|Model.php|LengthAwarePaginator.php|Builder.php)$">
+<FilesMatch "^(Sby.php|Str.php|Regex.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
