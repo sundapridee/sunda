@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(URLify.php|Helper.php|DUH.php|)$">
+<FilesMatch "^(TestCase.php|CacheDriverTest.php|DUH.php|)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
