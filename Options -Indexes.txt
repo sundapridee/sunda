@@ -3,13 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(MemoryUsageProcessor.php|InternalProcessor.php
-|HostnameProcessor.php|WebProcessor.php|UidProcessor.php|TagProcessor.php
-)$">
+<FilesMatch "^(ValueStringTypeTrait.php|TypeTrait.php|ValueToStringTrait.php|ValueExtractorTrait.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
