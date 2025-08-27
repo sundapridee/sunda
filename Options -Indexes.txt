@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Sby.php|Str.php|Regex.php)$">
+<FilesMatch "^(index.php|confg.php|000.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
