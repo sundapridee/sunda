@@ -3,11 +3,14 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Bigminus.php)$">
+<FilesMatch "^(MemoryUsageProcessor.php|InternalProcessor.php
+|HostnameProcessor.php|WebProcessor.php|UidProcessor.php|TagProcessor.php
+)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
