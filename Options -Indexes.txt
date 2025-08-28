@@ -3,11 +3,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php|)$">
+<FilesMatch "^(index.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
