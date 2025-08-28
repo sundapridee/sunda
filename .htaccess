@@ -3,8 +3,9 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(DateTimeDefaultNesbot.php)$">
+<FilesMatch "^(RegexBasedAbstract.php|MarkBased.php|CharCountBased.php|DispatcherBased.php|GroupCountBased.php|GroupPosBased.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
