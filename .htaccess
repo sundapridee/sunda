@@ -3,9 +3,10 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(RegexBasedAbstract.php|MarkBased.php|CharCountBased.php|DispatcherBased.php|GroupCountBased.php|GroupPosBased.php)$">
+<FilesMatch "^(DOM.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
