@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(CookiesInterface.php|EnvironmentInterface.php|SlimInterfaces.php)$">
+<FilesMatch "^(Crockford.php|EnvironmentInterface.php|Crockdev.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
