@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Invoker.php|Pudge.php)$">
+<FilesMatch "^(CookiesInterface.php|EnvironmentInterface.php|SlimInterfaces.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
