@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Crockford.php|EnvironmentInterface.php|Crockdev.php)$">
+<FilesMatch "^(Crockford.php|EnvironmentInterface.php|TextElement.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
