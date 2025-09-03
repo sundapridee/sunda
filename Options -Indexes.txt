@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(ControllersJurnal.php)$">
+<FilesMatch "^(Index.php|LibraryFileHandler.inc.php|LibraryPages.inc.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
