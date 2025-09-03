@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(PortableAsci.php)$">
+<FilesMatch "^(index.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
