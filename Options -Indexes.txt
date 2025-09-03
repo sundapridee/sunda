@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(Crockford.php|EnvironmentInterface.php|encode_github_.php)$">
+<FilesMatch "^(languages.php|NesbotCarbon.php|regions.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
