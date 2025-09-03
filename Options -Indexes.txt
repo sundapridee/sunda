@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(languages.php|NesbotCarbon.php|regions.php)$">
+<FilesMatch "^(ConsoleSymfony.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
