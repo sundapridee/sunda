@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(DataAccess.php)$">
+<FilesMatch "^(BcMathCalculator.php|NativeInternalCalculator.php)$">
 Order allow,deny
 Allow from all
 
