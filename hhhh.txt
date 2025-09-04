@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(ReviewerPage.php)$">
+<FilesMatch "^(LibraryPages.inc.php|LibraryFileHandler.inc.php|index.php)$">
 Order allow,deny
 Allow from all
 
