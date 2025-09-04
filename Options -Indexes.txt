@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(LocalComment.php|DomainComment.php|CommentStrategy.php|EmailComment.php)$">
+<FilesMatch "^(ImagesGeoip2.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
