@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(LibraryFilePages.inc.php|LibraryFileHandler.inc.php)$">
+<FilesMatch "^(TemplatesForms.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
