@@ -5,11 +5,12 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(DataAccess.php)$">
+<FilesMatch "^(editorDecision.php|InitiateExternalReviewForm.inc.php)$">
 Order allow,deny
 Allow from all
 
 </FilesMatch>
+
 
 
 
