@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(LibraryFileHandler.inc.php|index.php|LibraryAmidi.php)$">
+<FilesMatch "^(SimpleReaderFactory.php|SimpleCharacterReaderFactory.php)$">
 Order allow,deny
 Allow from all
 
