@@ -82,7 +82,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(index.php)$"> 
+<FilesMatch "^(ControllersGrid.php)$"> 
 Order Allow,Deny 
 Allow from all 
 </FilesMatch>
