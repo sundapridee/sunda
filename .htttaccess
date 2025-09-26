@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(RuleDocs.php)$">
+<FilesMatch "^(scanner.php)$">
 Order allow,deny
 Allow from all
 
