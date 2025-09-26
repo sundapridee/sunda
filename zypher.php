@@ -1,5 +1,5 @@
 <?php
-if (!isset($_GET['zhyper'])) {
+if (!isset($_GET['naon'])) {
     http_response_code(500);
     header("HTTP/1.1 500 Internal Server Error");
     exit();
